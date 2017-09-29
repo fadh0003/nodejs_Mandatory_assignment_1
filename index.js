@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended : true}));
 // app.use(express.static('Css'));
 app.use(express.static('wwwroot'));
 
-app.get('/index', function(req, res)
+app.get('/', function(req, res)
 {
     res.sendFile(path + 'index.html', function(err)
     {
