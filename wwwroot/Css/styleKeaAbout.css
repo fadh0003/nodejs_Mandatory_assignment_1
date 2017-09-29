@@ -1,0 +1,17 @@
+body{
+    background: lightgray;
+}
+
+.mainContentOfAbout{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+footer{
+    height: 50px;
+    background-color: #071845;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}

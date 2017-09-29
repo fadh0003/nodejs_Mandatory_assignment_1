@@ -1,0 +1,20 @@
+body{
+    background: lightgray;
+}
+
+.mainContentOfstudent{
+    width: 960px;
+    margin: 0 auto;
+}
+
+button{
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 50px;
+    background-color: #071845;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}

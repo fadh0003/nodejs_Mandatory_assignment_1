@@ -1,0 +1,128 @@
+body{
+    background: lightgray;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav img{
+    width: 60px;
+    height: auto;
+}
+
+button{
+   float: right;
+   margin-top: 20px;
+   padding: 6px;
+   border-radius: 5px;
+}
+
+.welcome p{
+    display: inline-block;
+}
+
+.welcome .video{
+   height: 200px;
+   width: 700px;
+   margin: 0px auto;     
+}
+
+.welcome .video iframe{
+    height: 100%;
+    width: 100%;
+ } 
+
+section.sub{
+    clear: both;
+}
+
+.welcome img{
+    margin-left: 150px;
+}
+
+section.news h2{
+    text-align: center;
+}
+
+.event{
+    display: flex;
+}
+
+.event_left{
+    flex: 0 1 40%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.event_left article{
+    position: relative;
+    margin: 20px 0px;
+}
+
+.event_left article img{
+    width: 50%;
+}
+
+.event_left article p{
+    position: absolute;
+    left: 55%;
+    top: 0%;
+}
+
+.event_right{
+    flex: 0 1 60%;
+    padding: 20px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.event_right img{
+    width: 32%;
+    height: auto; 
+}
+
+.event_right div{
+    margin: 20px 0px;
+}
+
+.Keafooter ul {
+    list-style: none;
+}
+
+.Keafooter li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.Keafooter *{
+    display: inline-block;
+}
+
+.buttonfooter{
+    float: right;
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+footer{
+    height: 50px;
+    background-color: #071845;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+
