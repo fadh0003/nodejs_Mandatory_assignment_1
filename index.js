@@ -17,6 +17,14 @@ app.get('/', function(req, res)
     });  
 });
 
+app.get('/index', function(req, res)
+{
+    res.sendFile(path + 'index.html', function(err)
+    {
+
+    });  
+});
+
 app.get('/contact', function(req, res)
 {
     res.sendFile(path + 'contact.html', function(err)
